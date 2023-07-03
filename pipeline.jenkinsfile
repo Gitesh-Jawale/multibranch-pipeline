@@ -1,0 +1,5 @@
+node {
+  stage("build") {
+    echo "build in main branch"
+  }
+}
