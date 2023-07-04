@@ -1,0 +1,15 @@
+node {
+  stage('Build') {
+    echo "Buiding application"
+  }
+
+  
+  stage('Test') {
+    echo "Testing application"
+  }
+
+  
+  stage('Deploy') {
+    echo "Deploying application"
+  }
+}
